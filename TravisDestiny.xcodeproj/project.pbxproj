@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA02435594E990EA7C1920F /* Pods_TravisDestiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F2817602004C2598B0ABD4 /* Pods_TravisDestiny.framework */; };
+		66F89E6E7F19EF8D63451921 /* Pods_TravisDestinyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC62C398355BE6C0F007BAB /* Pods_TravisDestinyTests.framework */; };
+		8B7DB91E52FFDDA2BDF47849 /* Pods_TravisDestinyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70A97936189BE0ACC7CD921 /* Pods_TravisDestinyUITests.framework */; };
 		B3EBF2861D07113300327DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBF2851D07113300327DA0 /* AppDelegate.swift */; };
 		B3EBF2881D07113300327DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBF2871D07113300327DA0 /* ViewController.swift */; };
 		B3EBF28B1D07113300327DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EBF2891D07113300327DA0 /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50A285EB6F923E40AB70A925 /* Pods-TravisDestiny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestiny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestiny/Pods-TravisDestiny.debug.xcconfig"; sourceTree = "<group>"; };
+		8CC62C398355BE6C0F007BAB /* Pods_TravisDestinyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravisDestinyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F2817602004C2598B0ABD4 /* Pods_TravisDestiny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravisDestiny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC56055E63E0344F57F65B1 /* Pods-TravisDestiny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestiny.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestiny/Pods-TravisDestiny.release.xcconfig"; sourceTree = "<group>"; };
+		B0FB2A70AE5F6E40DBAAB99C /* Pods-TravisDestinyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestinyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestinyUITests/Pods-TravisDestinyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3EBF2821D07113200327DA0 /* TravisDestiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisDestiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EBF2851D07113300327DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3EBF2871D07113300327DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		B3EBF2A11D07113300327DA0 /* TravisDestinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDestinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EBF2A51D07113300327DA0 /* TravisDestinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisDestinyUITests.swift; sourceTree = "<group>"; };
 		B3EBF2A71D07113300327DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0A78FAE522089DF4CCC1DD /* Pods-TravisDestinyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestinyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestinyTests/Pods-TravisDestinyTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA3DD97C4DEBDDD7E9F47D86 /* Pods-TravisDestinyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestinyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestinyTests/Pods-TravisDestinyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F70A97936189BE0ACC7CD921 /* Pods_TravisDestinyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravisDestinyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6BBACEF94FFFC79994682B /* Pods-TravisDestinyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravisDestinyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravisDestinyUITests/Pods-TravisDestinyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA02435594E990EA7C1920F /* Pods_TravisDestiny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F89E6E7F19EF8D63451921 /* Pods_TravisDestinyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7DB91E52FFDDA2BDF47849 /* Pods_TravisDestinyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		128B78BFA41DD411CF21474C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A285EB6F923E40AB70A925 /* Pods-TravisDestiny.debug.xcconfig */,
+				ABC56055E63E0344F57F65B1 /* Pods-TravisDestiny.release.xcconfig */,
+				DA3DD97C4DEBDDD7E9F47D86 /* Pods-TravisDestinyTests.debug.xcconfig */,
+				BD0A78FAE522089DF4CCC1DD /* Pods-TravisDestinyTests.release.xcconfig */,
+				FB6BBACEF94FFFC79994682B /* Pods-TravisDestinyUITests.debug.xcconfig */,
+				B0FB2A70AE5F6E40DBAAB99C /* Pods-TravisDestinyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		552CC611EECABC336E4EB23D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F2817602004C2598B0ABD4 /* Pods_TravisDestiny.framework */,
+				8CC62C398355BE6C0F007BAB /* Pods_TravisDestinyTests.framework */,
+				F70A97936189BE0ACC7CD921 /* Pods_TravisDestinyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3EBF2791D07113200327DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				B3EBF2991D07113300327DA0 /* TravisDestinyTests */,
 				B3EBF2A41D07113300327DA0 /* TravisDestinyUITests */,
 				B3EBF2831D07113200327DA0 /* Products */,
+				128B78BFA41DD411CF21474C /* Pods */,
+				552CC611EECABC336E4EB23D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3EBF2AA1D07113300327DA0 /* Build configuration list for PBXNativeTarget "TravisDestiny" */;
 			buildPhases = (
+				3FE313538597870E2AFA7747 /* [CP] Check Pods Manifest.lock */,
 				B3EBF27E1D07113200327DA0 /* Sources */,
 				B3EBF27F1D07113200327DA0 /* Frameworks */,
 				B3EBF2801D07113200327DA0 /* Resources */,
+				5B0F87CB4E17966BA1682F2B /* [CP] Embed Pods Frameworks */,
+				940A93AD7EA5DC817D406D31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3EBF2AD1D07113300327DA0 /* Build configuration list for PBXNativeTarget "TravisDestinyTests" */;
 			buildPhases = (
+				3D0A41CCB3920B3FCC1A1F0C /* [CP] Check Pods Manifest.lock */,
 				B3EBF2921D07113300327DA0 /* Sources */,
 				B3EBF2931D07113300327DA0 /* Frameworks */,
 				B3EBF2941D07113300327DA0 /* Resources */,
+				492BF12C088FE6868060185B /* [CP] Embed Pods Frameworks */,
+				BC5C29DA2AB595B07B5AF40F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3EBF2B01D07113300327DA0 /* Build configuration list for PBXNativeTarget "TravisDestinyUITests" */;
 			buildPhases = (
+				41CFC33B91FC34A1C0786F6A /* [CP] Check Pods Manifest.lock */,
 				B3EBF29D1D07113300327DA0 /* Sources */,
 				B3EBF29E1D07113300327DA0 /* Frameworks */,
 				B3EBF29F1D07113300327DA0 /* Resources */,
+				6D872315C1C9BD26DA4E7E27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D0A41CCB3920B3FCC1A1F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FE313538597870E2AFA7747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41CFC33B91FC34A1C0786F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		492BF12C088FE6868060185B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisDestinyTests/Pods-TravisDestinyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0F87CB4E17966BA1682F2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisDestiny/Pods-TravisDestiny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D872315C1C9BD26DA4E7E27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisDestinyUITests/Pods-TravisDestinyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940A93AD7EA5DC817D406D31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisDestiny/Pods-TravisDestiny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5C29DA2AB595B07B5AF40F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravisDestinyTests/Pods-TravisDestinyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3EBF27E1D07113200327DA0 /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		B3EBF2AB1D07113300327DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A285EB6F923E40AB70A925 /* Pods-TravisDestiny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisDestiny/Info.plist;
@@ -410,6 +582,7 @@
 		};
 		B3EBF2AC1D07113300327DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC56055E63E0344F57F65B1 /* Pods-TravisDestiny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TravisDestiny/Info.plist;
@@ -421,6 +594,7 @@
 		};
 		B3EBF2AE1D07113300327DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3DD97C4DEBDDD7E9F47D86 /* Pods-TravisDestinyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TravisDestinyTests/Info.plist;
@@ -433,6 +607,7 @@
 		};
 		B3EBF2AF1D07113300327DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0A78FAE522089DF4CCC1DD /* Pods-TravisDestinyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TravisDestinyTests/Info.plist;
@@ -445,6 +620,7 @@
 		};
 		B3EBF2B11D07113300327DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6BBACEF94FFFC79994682B /* Pods-TravisDestinyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TravisDestinyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		B3EBF2B21D07113300327DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FB2A70AE5F6E40DBAAB99C /* Pods-TravisDestinyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TravisDestinyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				B3EBF2AC1D07113300327DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3EBF2AD1D07113300327DA0 /* Build configuration list for PBXNativeTarget "TravisDestinyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				B3EBF2AF1D07113300327DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3EBF2B01D07113300327DA0 /* Build configuration list for PBXNativeTarget "TravisDestinyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				B3EBF2B21D07113300327DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
